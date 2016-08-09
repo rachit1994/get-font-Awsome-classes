@@ -3,7 +3,7 @@ var cheerio = require('cheerio');
 var jsonfile = require('jsonfile');
 var async = require('async');
 
-let con = [];
+/*If you want to run the script just install the packages required and on your console run: node font-awsome.js */
 
 request('http://fontawesome.io/cheatsheet/', function(error, response, html) {
             if (!error && response.statusCode == 200) {
